@@ -2066,8 +2066,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
-		padding: 5em 0 0em 0;
+		padding: 0em 0 0em 0;
 		text-align: center;
 	}
 
@@ -2082,7 +2081,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 
 		#nav > ul {
@@ -2112,7 +2111,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					font-weight: bold;
 				}
 
 				#nav > ul > li.current > a {
@@ -2389,7 +2388,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 0em 0;
+				padding: 0em 0 0em 0;
 			}
 
 		/* Banner */
@@ -2481,7 +2480,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3.5em 0 0em 0;
+				padding: 0em 0 0em 0;
 			}
 
 		/* Nav */
@@ -2844,7 +2843,7 @@ input, select, textarea {
 
 			#header {
 				text-align: center;
-				padding: 2em 0 0 0;
+				padding: 0em 0 0 0;
 			}
 
 				#header h1 {

@@ -13,14 +13,28 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="right-sidebar is-preload">
-		<div id="page-wrapper">
 
-			<!-- Main -->
+		<div id="page-wrapper">
+			<section id="header" style="position: sticky; top: 0; z-index: 10; font-size: 24px">
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#publications">Publications</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#expertise">Expertise</a></li>
+						<li><a href="#resources">Resources</a></li>
+					</ul>
+				</nav>
+			</section>
+
+				<!-- Main -->
 				<section id="main">
+
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
-								<div class="row">
+								<div class="row" id="home">
 									<div class="col-3 col-12-medium">
 										<section>
 											<img src="images/Song%20WU.jpg">
@@ -47,7 +61,7 @@
 										</section>
 									</div>
 
-									<div class="col-12">
+									<div class="col-12" id="publications">
 										<header class="major">
 											<h2>Selected Publications</h2>
 										</header>
@@ -85,7 +99,7 @@
 
 									</div>
 
-									<div class="col-12">
+									<div class="col-12" id="services">
 										<header class="major">
 											<h2>Services</h2>
 										</header>
@@ -100,12 +114,21 @@
 										</p>
 									</div>
 
-									<div class="col-12">
+									<div class="col-12" id="expertise">
 										<header class="major">
 											<h2>Expertise</h2>
 										</header>
 										<p>
 											<b><a href="https://public.tableau.com/app/profile/song.wu2370/vizzes" target="new_window">Tableau</a></b>-based trajectory data visualization, exploration, and dashboard design
+										</p>
+									</div>
+
+									<div class="col-12" id="resources">
+										<header class="major">
+											<h2>Resources</h2>
+										</header>
+										<p>
+											<b><a href="https://zenodo.org/records/7283281" target="new_window">Fishing trajectory dataset</a></b>: this dataset contains 128 fishing trajectories, and each trajectory point has a label of <i>fishing</i> or <i>not-fishing</i>. This dataset can be used for the task of trajectory segmentation to understand fishing activities.
 										</p>
 										<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Oo88IVP5DwWRLXWJJMWcw0QepB22JcThN1WYGm7Oc3M&cl=ffffff&w=a"></script>
 									</div>
