@@ -2449,14 +2449,13 @@ input, select, textarea {
 	}
 
 /* Medium */
-
 	#navPanel, #titleBar {
 		display: none;
 	}
 
 	@media screen and (max-width: 980px) {
-
 		/* Basic */
+
 
 			html, body {
 				overflow-x: hidden;
@@ -2703,7 +2702,6 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
-
 		/* Basic */
 
 			body, input, textarea, select {
